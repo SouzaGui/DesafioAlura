@@ -1,0 +1,192 @@
+:root {
+	--text-color: #667085;
+}
+
+body {
+	background: #F8F8FF;
+	width: 99%;
+	height: 100vh;
+}
+
+nav {
+	background: #F5F5F5;
+	background-size: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem 0;
+}	
+
+#logo {
+	width: 100px;
+}
+
+.links a {
+	color: #000000;
+	text-decoration: none;
+	margin-right: 2rem;
+}
+
+.links a:hover {
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+button {
+	padding: 0.5rem 0.5rem;
+	cursor: pointer;
+	border: none;
+	border-radius: 0.5rem;
+	font-weight: 400;
+	background: none;
+	font-size: 0.7rem;
+}
+
+button#cadastro{
+	font-weight: bolder;
+	background: #D2B48C;
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+button:hover {
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+.Principal {
+	text-align: center;
+	padding: 60px 0 20px 0;
+}
+.Principal h1 {
+	font-size: 2.5em;
+}
+
+span#sobre {
+	background:	#FDF5E6;
+	font-weight: bolder;
+	font-size: 16px;
+	color: #D2B48C;
+}
+
+p {
+	font-size: 20px;
+	color: var(--text-color);
+}
+
+.container {
+	display: inline-flex;
+	justify-content: space-around;
+	text-align: left;
+}
+
+.projetos {
+	padding: 20px 20px 0px 20px;
+	justify-content: space-between;
+}
+
+span#dados {
+	font-weight: bolder;
+	color: #D2B48C;
+	font-size: 50px;
+}
+
+span#subtitulo {
+	font-size: 16px;
+	font-weight: bolder;
+	color: #000000;
+}
+
+span#paragrafo {
+	font-size: 16px;
+}
+
+#vagasAbertas {
+	background:	#FDF5E6;
+	font-weight: bolder;
+	font-size: 16px;
+	color: #D2B48C;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+#imagemReuniao {
+	width: 65%;
+}
+
+#vagas {
+	display: block;
+	text-align: left;
+	padding: 30px 250px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+.cargoSalario {
+	border-width: 50px 10px;
+	border: 2px solid #F5F5F5;
+	border-radius: 4px;
+}
+
+span#cargo {
+	font-weight: bolder;
+	color: #000000;
+	font-size: 15px;
+}
+
+span#salario {
+	font-size: 15px;
+}
+
+/*.colaboradores {
+	background: #FAEBD7;
+}*/
+
+.colaborador {
+	font-size: 15px;
+	color: #D2B48C;
+}
+
+h5 {
+	font-weight: initial;
+	color: #000000;
+	font-size: 28px;
+}
+
+.nome {
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.rodape {
+	font-size: 11px;
+}
+
+/*footer {
+	background: #F5F5F5;
+	padding: 30px 0;
+}*/
+
+h6 {
+	font-size: 28px;
+}
+
+footer p {
+	font-size: 17px;
+}
+
+#Email {
+	font-size: 15px;
+}
+
+.copyright {
+	font-size: 10px;
+}
